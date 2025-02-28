@@ -1,0 +1,160 @@
+body{
+    padding-bottom: 100px;
+}
+
+h2{
+    color:rgb(14, 88, 64);
+    font-size: 75px;
+
+}
+
+/*  Classes */
+
+.paragraph{
+    color: aqua;
+    background-color: brown;
+}
+
+#tema-exclusivo {
+    color: rgb(255, 238, 0);
+    background-color: blue;
+}
+
+.nome-cor{
+    color: darkred; 
+}
+
+.hex{
+    color: #555;
+}
+
+.rgba{
+    color: rgba(200, 48, 10, 0.5);
+}
+
+.opacidade-bg{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.rgba-opacidade{
+    background-color: rgba(200, 48, 10, 0.2);
+    color: #000;
+}
+
+.bg-imagem{
+    background-image: url(../../Introdução_HTML/img/Corinthians.jpg);
+}
+
+.centralizado,
+.nao-centralizado{
+    height: 400px;
+    width: 400px;
+    background-image: url("../../Introdução_HTML/img/Corinthians.jpg");
+}
+
+.centralizado{
+    background-position: center;
+    background-size: cover;
+
+}
+
+.altura-e-largura{
+    height: 200px;
+    /* width: 100px; */
+    background-color: red;
+}
+
+.sem-padding,
+.com-padding{
+    background-color: #000;
+    color: #fff;
+}
+
+.com-padding{
+    background-color: #555;
+    padding: 20px;
+}
+
+.shorthand-padding,
+.shorthand-padding-2{
+    background-color: #444;
+    padding: 6px 12px 18px 10px;
+}
+
+.shorthand-padding-2{
+    padding:  10px 20px;
+}
+
+.borda{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.borda-2{
+    border: 2px dotted #987;
+    padding: 10px;
+}
+
+.borda-esquerda{
+    border-left: 3px solid red;
+    background-color: #745;
+    padding: 25px;
+}
+
+.borda-baixo{
+    border-bottom: 3px double red;
+    background-color: #745;
+    padding: 25px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.obliquo{
+    font-style: oblique;
+}
+
+.fino,.bold,.bolder{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.fino{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+.estatico{
+    position: static;
+    background-color: #789;
+    color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.relativo{
+    position: relative;
+    background-color: #4568;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
