@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h2>Formularios HTML</h2>
+
+    <!-- Primeiro Formulario -->
+    <form action="register.php" method="GET">
+
+        <div>
+            <label for="">Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo name -->
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Select -->
+         <div>
+            <label for="job">Selecione a sua profissão</label>
+            <select name="job">
+                <option value="programdaor">Programador</option>
+                <option value="arquiteto">Arquiteto</option>
+                <option value="advogado">Advogado</option>
+            </select>
+         </div>
+        
+        <!-- Selected -->
+        <div>
+            <label for="contrato">Você leu o contrato ?</label>
+            <select name="contrato">
+                <option value="sim">Sim</option>
+                <option value="não" selected>Não</option>
+            </select>
+        </div>
+
+
+        <!-- Multiplas opçôes -->
+
+        <div>
+            <label for="itens">Selecione os itens desejados:</label>
+            <select name="itens" multiple>
+                <option value="pera">Pera</option>
+                <option value="maça">Maça</option>
+                <option value="banana">Banana</option>
+                <option value="melão">Melão</option>
+            </select>
+        </div>
+        <!-- Envio de form -->
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
