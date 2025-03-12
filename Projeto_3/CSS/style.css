@@ -90,7 +90,7 @@ nav{
 /* Main banner */
 
 .main-banner{
-    background-image: url('../img/smart-fit-capa.jpg');
+    background-image: url('../img/bg-smart-fit.jpg');
     padding: 10rem 0;
     background-size: cover;
     background-position: center;
@@ -100,6 +100,7 @@ nav{
 
 .main-banner h1{
     font-size: 70px;
+    padding-bottom: 10px;
 }
 
 .main-banner p{
@@ -118,6 +119,7 @@ nav{
 
 .services-containder{
     padding: 8rem 0;
+    margin-block: 2rem;
 }
 
 .services-containder ul{
@@ -130,7 +132,7 @@ nav{
     flex: 1 1 200px;
     list-style: none;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     border-radius: 25px;
 }
 
@@ -145,28 +147,34 @@ nav{
 
 .premium{
     background-color: #000;
-}
-
-.premium p, h2, h3{
     color: #fff;
 }
 
+.premium p,h{
+    color: #fff;
+}
 
 .smart{
     background-color: #ffbb2f;
     margin-inline: 40px;
 }
 
-.smart p, h2, h3{
-    color: #fff;
+.smart 
+p, 
+h2, 
+h3{
+    color: #000;
 }
 
 .fit{
     background-color: #ffbb2f;
 }
 
-.fit p, h2, h3{
-    color: #fff;
+.fit 
+p,
+h2,
+h3{
+    color: #000;
 }
 
 i{
@@ -188,15 +196,15 @@ i{
     width: 80%;
     margin: 0 auto;
     margin-block: 35px;
-    color: #fff;
+    color: #000;
     background-color: #ffbb2f;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .btn-smart p:hover{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
 }
 
 .btn-fit p{
@@ -204,15 +212,15 @@ i{
     width: 80%;
     margin: 0 auto;
     margin-block: 35px;
-    color: #fff;
+    color: #000;
     background-color: #ffbb2f;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .btn-fit p:hover{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
 }
 
 .btn-premium p{
