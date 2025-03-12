@@ -1,0 +1,233 @@
+@font-face{
+    font-family: "Roboto-Medium";
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto-Black';
+    src: url('../fonts/roboto/Roboto-Black.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Medium";
+}
+
+h1,
+h2,
+h3{
+    color: #333;
+}
+
+p{
+    color: #696969;
+}
+
+/* Navbar  */
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 110px;
+    height: 65px;
+    margin-top: 15px;
+    box-shadow: #696969;
+}
+
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li{
+    display: inline-block;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.navbar-items a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto-Black';
+    transition: 0.5s;
+}
+
+.navbar-items a:hover{
+    color: #ffbb2f;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #ffbb2f;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.default-btn:hover{
+    background-color: #000;
+}
+
+/* Main banner */
+
+.main-banner{
+    background-image: url('../img/smart-fit-capa.jpg');
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow:1px 1px 3rem #696969;
+}
+
+.main-banner h1{
+    font-size: 70px;
+}
+
+.main-banner p{
+    font-size: 30px;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+/* Services */
+
+.services-containder{
+    padding: 8rem 0;
+}
+
+.services-containder ul{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-containder li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.services-containder h2{
+    padding-bottom: 25px;
+}
+
+.services-containder p{
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.premium{
+    background-color: #000;
+}
+
+.premium p, h2, h3{
+    color: #fff;
+}
+
+
+.smart{
+    background-color: #ffbb2f;
+    margin-inline: 40px;
+}
+
+.smart p, h2, h3{
+    color: #fff;
+}
+
+.fit{
+    background-color: #ffbb2f;
+}
+
+.fit p, h2, h3{
+    color: #fff;
+}
+
+i{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-star{
+    color: #ffbb2f;
+}
+
+.fa-user{
+    color: #000;
+}
+
+/* Configuração dos "buttons" */
+.btn-smart p{
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-block: 35px;
+    color: #fff;
+    background-color: #ffbb2f;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.btn-smart p:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-fit p{
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-block: 35px;
+    color: #fff;
+    background-color: #ffbb2f;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.btn-fit p:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-premium p{
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-block: 35px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.btn-premium p:hover{
+    color: #000;
+    background-color: #ffbb2f;
+}
+
