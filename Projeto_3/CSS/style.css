@@ -90,7 +90,7 @@ nav{
 /* Main banner */
 
 .main-banner{
-    background-image: url('../img/smart-fit-capa.jpg');
+    background-image: url('../img/5b6b8d04aa070.jpeg');
     padding: 10rem 0;
     background-size: cover;
     background-position: center;
@@ -158,7 +158,7 @@ nav{
 }
 
 .smart p, h2, h3{
-    color: #fff;
+    color: #000;
 }
 
 .fit{
@@ -166,7 +166,7 @@ nav{
 }
 
 .fit p, h2, h3{
-    color: #fff;
+    color: #000;
 }
 
 i{
@@ -188,15 +188,15 @@ i{
     width: 80%;
     margin: 0 auto;
     margin-block: 35px;
-    color: #fff;
+    color: #000;
     background-color: #ffbb2f;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .btn-smart p:hover{
-    color: #000;
-    background-color: #fff;
+    color: #ffbb2f;
+    background-color: #000;
 }
 
 .btn-fit p{
@@ -204,15 +204,15 @@ i{
     width: 80%;
     margin: 0 auto;
     margin-block: 35px;
-    color: #fff;
+    color: #000;
     background-color: #ffbb2f;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .btn-fit p:hover{
-    color: #000;
-    background-color: #fff;
+    color: #ffbb2f;
+    background-color: #000;
 }
 
 .btn-premium p{
@@ -231,3 +231,34 @@ i{
     background-color: #ffbb2f;
 }
 
+
+/* Estilização da seção find */
+.find-container{
+    background-image: url('../img/smartfit-1482324548222_v2_1920x1080.jpg');
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow:1px 1px 3rem #696969;
+}
+
+.find-container p, i{
+    display: inline-flex;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.title-find{
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 30px;
+}
+
+.title-find span{
+    color: #ffbb2f;
+}
