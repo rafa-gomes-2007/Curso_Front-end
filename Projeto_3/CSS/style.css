@@ -90,7 +90,11 @@ nav{
 /* Main banner */
 
 .main-banner{
+<<<<<<< HEAD
     background-image: url('../img/5b6b8d04aa070.jpeg');
+=======
+    background-image: url('../img/bg-smart-fit.jpg');
+>>>>>>> 0348476932f8cd36922e25de0e2da2eeb707410b
     padding: 10rem 0;
     background-size: cover;
     background-position: center;
@@ -100,6 +104,7 @@ nav{
 
 .main-banner h1{
     font-size: 70px;
+    padding-bottom: 10px;
 }
 
 .main-banner p{
@@ -118,6 +123,7 @@ nav{
 
 .services-containder{
     padding: 8rem 0;
+    margin-block: 2rem;
 }
 
 .services-containder ul{
@@ -130,7 +136,7 @@ nav{
     flex: 1 1 200px;
     list-style: none;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     border-radius: 25px;
 }
 
@@ -145,19 +151,26 @@ nav{
 
 .premium{
     background-color: #000;
-}
-
-.premium p, h2, h3{
     color: #fff;
 }
 
+.premium p,h{
+    color: #fff;
+}
 
 .smart{
     background-color: #ffbb2f;
     margin-inline: 40px;
 }
 
+<<<<<<< HEAD
 .smart p, h2, h3{
+=======
+.smart 
+p, 
+h2, 
+h3{
+>>>>>>> 0348476932f8cd36922e25de0e2da2eeb707410b
     color: #000;
 }
 
@@ -165,7 +178,14 @@ nav{
     background-color: #ffbb2f;
 }
 
+<<<<<<< HEAD
 .fit p, h2, h3{
+=======
+.fit 
+p,
+h2,
+h3{
+>>>>>>> 0348476932f8cd36922e25de0e2da2eeb707410b
     color: #000;
 }
 
@@ -195,7 +215,11 @@ i{
 }
 
 .btn-smart p:hover{
+<<<<<<< HEAD
     color: #ffbb2f;
+=======
+    color: #fff;
+>>>>>>> 0348476932f8cd36922e25de0e2da2eeb707410b
     background-color: #000;
 }
 
@@ -211,7 +235,11 @@ i{
 }
 
 .btn-fit p:hover{
+<<<<<<< HEAD
     color: #ffbb2f;
+=======
+    color: #fff;
+>>>>>>> 0348476932f8cd36922e25de0e2da2eeb707410b
     background-color: #000;
 }
 
