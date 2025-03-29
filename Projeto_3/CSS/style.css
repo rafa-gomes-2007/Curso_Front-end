@@ -233,25 +233,6 @@ i{
 
 
 /* Estilização da seção find */
-.find-container{
-    background-image: url('../img/smartfit-1482324548222_v2_1920x1080.jpg');
-    padding: 10rem 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow:1px 1px 3rem #696969;
-}
-
-.find-container p, i{
-    display: inline-flex;
-    color: #000;
-    background-color: #fff;
-    text-align: center;
-    font-size: 25px;
-    height: 50px;
-    width: 30%;
-    margin: 0 auto;
-}
 
 .title-find{
     text-align: center;
@@ -261,4 +242,115 @@ i{
 
 .title-find span{
     color: #ffbb2f;
+}
+
+.find-container{
+    background-image: url('../img/smartfit-1482324548222_v2_1920x1080.jpg');
+    padding: 12rem;
+    margin-bottom: 8rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow:1px 1px 3rem #696969;
+    display: flex;
+}
+
+.find-container input{
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 28px;
+    border: solid 3px #000;
+    border-radius: 2rem;
+}
+
+/* Responsividade */
+
+
+/* Notebook*/
+@media(max-width: 1100px) {
+    .smart{
+        margin-inline: 1rem;
+    }
+}
+
+/* Tablet */
+@media(max-width: 900px) {
+
+    .services-containder{
+        padding: 4rem 0;
+    }
+
+    .services-containder li{
+        height: 36rem;
+    }
+
+    .title-find{
+        width: 44rem;
+        margin: 0 auto;
+    }
+
+    .find-container input{
+        width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 576px) {
+
+    body, html{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        margin-right: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .navbar-container li{
+        font-size: 10px;
+        margin-left: 4px;
+    }
+
+    .services-containder{
+        padding: 2rem 0;
+    }
+
+    .services-containder ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .premium{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .fit{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .smart{
+        width: 100%;
+        max-width: 100%;
+        margin-block: 2rem;
+    }
+ 
+    .title-find{
+        width: 22rem;
+        margin: 0 auto;
+    }
+
+    .find-container input{
+        margin: 0 auto;
+        padding-left: 5rem;
+        color: #000;
+    }
 }
