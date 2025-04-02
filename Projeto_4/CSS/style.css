@@ -252,3 +252,25 @@ footer #footer-links{
     }
 
 }
+
+@media(min-width: 768px){
+    #banner-container img{
+        margin-left: 80px;
+        width: 390px;
+    }
+
+    #form-container{
+        padding-left: 10rem;
+    }
+}
+
+@media(min-width: 1000px){
+    #banner-container img{
+        margin-left: 80px;
+        width: 390px;
+    }
+
+    #form-container{
+        padding-left: 0rem;
+    }
+}
