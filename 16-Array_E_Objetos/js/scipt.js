@@ -296,17 +296,49 @@
 
 // 24 - For of
 
-const somaInfiita2 = (...args) => {
-    let total2 = 0
+// const somaInfiita2 = (...args) => {
+//     let total2 = 0
 
-    for (num of args) {
-        total2 += num
-    }
+//     for (num of args) {
+//         total2 += num
+//     }
 
-    return `Este é o resultado: ${total2}`
-}
+//     return `Este é o resultado: ${total2}`
+// }
 
-console.log(somaInfiita2(5758,84988,5877,577))
+// console.log(somaInfiita2(5758,84988,5877,577))
 
 // 25 - Destructuring em ojetos
 
+// const usuario = {
+//     firstName: "Rafael",
+//     lastName: "Gomes",
+//     age: 187
+// }
+
+// const {firstName , lastName, age} = usuario
+
+// console.log(firstName)  
+
+// 26 Destructuring em array
+
+// const lista = ["Corinthinas","Real Madrid","Barcelona"]
+
+// const [time1 , time2 , time3] = lista
+
+// console.log(time1,time2,time3)
+
+// 27 JSON
+
+const meuJson = {'name': 'Rafael', 'age': 31}
+
+console.log(meuJson)
+
+// 28 Conversãoparade JSON para obejto e vice e versa
+
+const meuObjeto = JSON.parse(meuJson)
+
+console.log(meuObjeto)
+
+console.log(meuObjeto.name)
+console.log(typeof meuObjeto)

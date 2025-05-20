@@ -52,5 +52,6 @@
         "Texto",
         "Titulo",
         "vocês"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
